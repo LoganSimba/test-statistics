@@ -15,6 +15,25 @@ public class TestStatistics {
 
         System.out.println(average);
 
+        //finding the highest score by iterating through the list
+        int highest = 0;
+        for(int j = 0; j <testScores.length; j++){
+            if(highest < testScores[j]){
+                highest = testScores[j];
+
+            }
+        }
+
+        //create a variabl to track the lowest through the list
+        int lowest = 0;
+        for(int j = 0; j <testScores.length; j++){
+            if(lowest > testScores[j]){
+                lowest = testScores[j];
+            }
+        }
+
+
+
 
     }
 }
